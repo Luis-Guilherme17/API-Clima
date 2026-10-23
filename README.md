@@ -29,30 +29,6 @@ clima/
 └── style.css      # Estilos da página
 ```
 
-## 🚀 Como executar
-
-### Pré-requisitos
-
-- PHP 7.4 ou superior, com a extensão **cURL** habilitada
-- Acesso à internet (para consultar a Open-Meteo)
-
-### Passo a passo
-
-```bash
-# Clone o repositório
-git clone https://github.com/Luis-Guilherme17/API-Clima.git
-
-# Entre na pasta do projeto
-cd API-Clima/clima
-
-# Inicie o servidor embutido do PHP
-php -S localhost:8000
-```
-
-Abra no navegador: **http://localhost:8000**
-
-> ⚠️ O projeto precisa ser executado por um servidor PHP. Abrir o `index.html` direto no navegador não funciona, porque a consulta depende do `clima.php`.
-
 ## 📡 Endpoint
 
 ### `GET /clima.php?cidade={nome}`
@@ -106,10 +82,6 @@ GET /clima.php?cidade=Recife
 3. O `clima.php` consulta a **Geocoding API** da Open-Meteo para obter latitude e longitude.
 4. Com as coordenadas, consulta a **Forecast API** para obter o clima atual.
 5. O PHP devolve um JSON enxuto e o JavaScript monta o card na tela.
-
-## 🤝 Contribuindo
-
-Contribuições são bem-vindas! Abra uma issue ou envie um pull request.
 
 ## 👤 Autor
 
