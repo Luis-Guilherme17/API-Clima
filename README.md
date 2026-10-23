@@ -2,6 +2,13 @@
 
 Aplicação web que consulta o clima atual de qualquer cidade. O usuário digita o nome da cidade, o back-end em PHP consulta a API gratuita **Open-Meteo** e devolve um JSON, que o JavaScript exibe em um card com temperatura, sensação térmica, umidade e vento.
 
+//Esse é o link pro vídeo da revisão e funcionamento do projeto:
+(Clique na imagem para ser redirecionado)
+
+
+[![CRUD](https://img.youtube.com/vi/19F6QeDbxnk/0.jpg)](https://www.youtube.com/watch?v=19F6QeDbxnk)   
+
+
 ## ✨ Funcionalidades
 
 - Busca do clima atual pelo nome da cidade
